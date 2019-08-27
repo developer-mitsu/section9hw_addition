@@ -1,9 +1,10 @@
-const animationItem = document.getElementById("js-animationItem")
+// const animationItem = document.getElementById("js-animationItem")
 
+const SlideItems = document.getElementsByClassName('slide-item')
 
-animationItem.addEventListener("load",function(){
+document.addEventListener("DOMContentLoaded",function(){
 
-    animationItem.classList.add("appear")
+    SlideItems[0].classList.add("appear")
 
 })
 

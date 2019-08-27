@@ -1,0 +1,21 @@
+.slide-wrapper {
+  position: relative;
+  width: 100%; }
+  .slide-wrapper .slide-item {
+    background-image: url(../img/pig2.jpg);
+    background-image: url(../img/pig3.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s linear 0s;
+    width: 100%;
+    height: 700px; }
+    .slide-wrapper .slide-item:nth-child(1) {
+      background-image: url(../img/pig1.jpg); }
+  .slide-wrapper .slide-item.appear {
+    opacity: 1; }
+
+/*# sourceMappingURL=main.css.map */
